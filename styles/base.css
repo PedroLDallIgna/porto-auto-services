@@ -1,0 +1,35 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Tahoma;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 
+Cores defaults do site para utilização
+
+white: #fff
+blue: #1c5fa8
+yelow: #ffd700
+gray: #f4f4f4
+*/
+
+/*
+para fontes
+
+black: #000
+gray: #212529
+gray: #333
+*/
