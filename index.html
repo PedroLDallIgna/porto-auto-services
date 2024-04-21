@@ -108,8 +108,26 @@
         </div>
       </div>
     </section>
-    <section>
-      contato
+    <section id="contato" class="section contact-section container-fluid">
+      <div class="container contact-section-container">
+        <h2 class="section-title underline-center contact-title">Entre em contato</h2>
+
+        <form class="contact-form">
+          <label>
+            Nome:
+            <input type="text" name="name" id="name" required>
+          </label>
+          <label>
+            E-mail:
+            <input type="email" name="email" id="email" required>
+          </label>
+          <label>
+            Mensagem:
+            <textarea name="message" id="message" required></textarea>
+          </label>
+          <button class="contact-form-submit" type="submit">Enviar</button>
+        </form>
+      </div>
     </section>
   </main>
   <footer>Footer</footer>
