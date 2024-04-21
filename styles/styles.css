@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+.nav-link {
+  color: #1c5fa8;
+
+  &:hover {
+    color: #ffd700
+  }
+}
